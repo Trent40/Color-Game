@@ -1,0 +1,104 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+	background-size: 100%, 100%;
+	background-position: center;
+	background: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 17%;
+	transition: background .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+
+#container {
+	margin: 40px auto;
+	max-width: 600px;
+
+}
+h1 {color: white;
+	text-align:center;
+	text-transform: uppercase;
+	background-color: darkturquoise; 
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+	}
+
+h2 {color: white;
+	text-align:center;
+	text-transform: uppercase;
+	background-color: lightcoral; 
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;  
+	}
+
+span {
+	color: white;
+	
+}
+
+#stripe {
+	background-color: cornsilk;
+	height: 30px;
+	text-align: center;
+	color: black;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 12px 0;
+}
+
+#message {
+	color: darkturquoise;
+	display: inline-block;
+	width: 20%;
+}
+
+.selected {
+	background-color: darkturquoise;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 73%;
+	font-weight: 700;
+	color: lightcoral;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .3s;
+	outline: none;
+}
+
+button:hover {
+	color:darkturquoise;
+	background-color: lightcoral;
+}
+
+#reset {
+	text-transform: uppercase;
+	border: none;
+	color: lightcoral;
+}
+
+#reset:hover {
+	color:darkturquoise;
+}
